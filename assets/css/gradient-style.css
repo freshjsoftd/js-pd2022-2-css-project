@@ -1,0 +1,46 @@
+*{
+  margin: 10px auto;
+}
+:root{
+  font-size: 30px;
+}
+nav{
+  text-align: center;
+}
+.container > div{
+  width: 50%;
+  height: 200px;
+  border: 3px solid green;
+  text-align: center;
+}
+#grad1{
+  background: linear-gradient(teal, cyan);
+}
+#grad2{
+  background: linear-gradient(to right, rgb(36, 128, 0), rgb(0, 81, 255));
+}
+#grad3{
+  background: linear-gradient(to top right, red, cyan);
+}
+#grad4{
+  background: linear-gradient(-30deg, yellow, magenta, red);
+}
+#grad5{
+  background: repeating-linear-gradient(-60deg, yellow, magenta, red 30px);
+}
+#grad6{
+  background: repeating-radial-gradient(farthest-side at 70% 50%, yellow, magenta, red 30px);
+}
+#grad7{
+  background: conic-gradient( yellow, cyan);
+}
+#grad8{
+  background: linear-gradient( to right, 
+                                red 15%,
+                                orange 15% 30%,
+                                yellow 30% 45%,
+                                green 45% 60%,
+                                blue 60% 75%,
+                                indigo 45% 90%,
+                                violet 90%);
+}
