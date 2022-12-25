@@ -1,0 +1,69 @@
+:root {
+	--main-color: #5f9da0;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+	min-height: 300vh;
+}
+a {
+  font-size: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  padding: 5px;
+}
+nav{
+  text-align: center;
+  margin: 20px auto;
+}
+.container {
+	border: 1px solid black;
+	min-height: 1500px;
+}
+.item,
+.item3,
+.item12,
+.item19 {
+	min-width: 100px;
+	max-width: 300px;
+	/* min-height: 30px; */
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	background-color: teal;
+	border: 5px solid red;
+	padding: 10px 20px;
+  /* flex-shrink: 1; */
+  /* flex-grow: 1; */
+  /* order: 5; */
+	/* margin: 10px; */
+}
+.flex-container{
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-evenly;
+}
+
+.item3{
+  height: 100px;
+  order: -3;
+  flex: 1 1 auto;
+  /* flex-grow: 2; */
+  /* flex-shrink: 2; */
+  /* flex-basis: 500px; */
+}
+.item12{
+  height: 200px;
+  align-self: flex-start;
+  /* margin: auto 10px; */
+}
+.item19{
+  height: 300px;
+}

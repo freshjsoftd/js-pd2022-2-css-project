@@ -1,0 +1,16 @@
+.image-wrapper{
+  width: 200px;
+  height: 200px;
+  border: 5px solid wheat;
+  border-radius: 50%;
+  overflow: hidden;
+}
+img{
+  width: inherit;
+  height: inherit;
+  /* border: 5px solid wheat;
+  border-radius: 50%; */
+  overflow: hidden;
+  object-fit: fill;
+  object-position: 5% 30%;
+}

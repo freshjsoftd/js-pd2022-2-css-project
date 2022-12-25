@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+  margin: auto;
+}
+:root{
+  font-size: 20px;
+}
+.navbar{
+  min-width: 500px;
+  max-width: 1200px;
+  margin-top: 70px;
+}
+.menu-item{
+  width: 150px;
+  height: 30px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  background-color: bisque;
+  text-align: center;
+  z-index: 20;
+}
+.main-article{
+  width: 1200px;
+  /* position: relative; */
+}
+.info{
+  margin: 10px;
+  padding: 10px;
+  font-size: 1,5rem;
+}
+#section1{
+  width: inherit;
+  background-color: aqua;
+  position: absolute;
+  top: 100px;
+  /* z-index: 3; */
+}
+#section2{
+  width: inherit;
+  background-color: burlywood;
+  position: relative;
+  bottom: 50px;
+  left: 250px;
+  z-index: 1;
+}
+#section3{
+  width: inherit;
+  background-color: blueviolet;
+  position: fixed;
+  top: 300px;
+}
